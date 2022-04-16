@@ -11,7 +11,7 @@ void ResizeBoxes(cv::Rect& box) {
 
 int main()
 {
-	cv::VideoCapture video("D:/Nandha/DS-IQ-005-OcclusionFactor-Video.mp4");
+	cv::VideoCapture video("D:/rohan/DS-IQ-005-OcclusionFactor-Video.mp4");
 	if (!video.isOpened()) return -1;
 	cv::Mat frame;
 	int frameWidth = video.get(cv::CAP_PROP_FRAME_WIDTH);
